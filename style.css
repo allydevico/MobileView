@@ -85,14 +85,6 @@
     justify-content: center;
   }
 
-  .fa {  
-    padding: 20px;  
-    text-align: center;  
-    margin: 5px 2px;  
-    font-size: 30px;  
-    width: 50px;  
-  }  
-    .fa-linkedin {  
-    background: white;  
-    color: black;  
-  }  
+  .fa_custom {
+    color: #0099CC
+  }
