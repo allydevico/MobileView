@@ -8,7 +8,6 @@
   body {
     margin: 0;
     padding: 0;
-    background-image: url('../images/concrete_seamless.png');
     background-color: white;
   }
   
@@ -95,10 +94,63 @@
     height: auto;
   }
 
+  .container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    row-gap: 15px;
+  }
+
+  .Umich-Image {
+    grid-column: 1;
+    grid-row: 1;
+    max-height: 700px;
+    overflow: hidden;
+    opacity: 0.2;
+  }
+  
+  .Umich{
+    grid-column: 1;
+    grid-row: 1;
+  }
+  
+  .WHRHS-Image {
+    grid-column: 2;
+    grid-row: 2;
+    max-height: 700px;
+    overflow: hidden;
+    opacity: 0.2;
+  }
+  
+  .WHRHS{
+    grid-column: 2;
+    grid-row: 2;
+  }
+  
+  .Cornell-Image {
+    grid-column: 3;
+    grid-row: 3;
+    max-height: 700px;
+    overflow: hidden;
+    opacity: 0.2;
+  }
+  
+  .Cornell {
+    grid-column: 3;
+    grid-row: 3;
+  }
+
+  .text-block{
+    background-color: transparent;
+    padding: 10px 10px 10px 10px;
+    align-self: center;
+  
+  }
+
   input[type=text], select, textarea {
     width: 100%; 
     padding: 12px; 
-    border: 1px solid #000000; 
+    border: 1px solid black; 
     border-radius: 5px; 
     box-sizing: border-box;
     margin-top: 10px;
@@ -115,13 +167,13 @@
     font-size: 16px;
     border-radius: 5px;
     justify-content: center;
-    color: #ffffff; 
+    color: white; 
     cursor: pointer;
   }
 
   .contactForm {
     border-radius: 15px;
-    background-color: #f2f2f2;
+    background-color: white;
     padding: 20px;
     width: 90%; 
     display: flex;
