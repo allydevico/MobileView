@@ -102,48 +102,47 @@
   }
 
   .Umich-Image {
-    grid-column: 1;
+    grid-column: 1 / span 3;
     grid-row: 1;
-    max-height: 700px;
     overflow: hidden;
-    opacity: 0.2;
+    opacity: 0.4;
   }
   
   .Umich{
-    grid-column: 1;
+    grid-column: 1 / span 3;
     grid-row: 1;
   }
   
   .WHRHS-Image {
-    grid-column: 2;
+    grid-column: 1 / span 3;
     grid-row: 2;
-    max-height: 700px;
     overflow: hidden;
-    opacity: 0.2;
+    opacity: 0.4;
   }
   
   .WHRHS{
-    grid-column: 2;
+    grid-column: 1 / span 3;
     grid-row: 2;
+
   }
   
   .Cornell-Image {
-    grid-column: 3;
+    grid-column: 1 / span 3;
     grid-row: 3;
     max-height: 700px;
     overflow: hidden;
-    opacity: 0.2;
+    opacity: 0.4;
   }
   
   .Cornell {
-    grid-column: 3;
+    grid-column: 1 / span 3;
     grid-row: 3;
   }
 
   .text-block{
     background-color: transparent;
     padding: 10px 10px 10px 10px;
-    align-self: center;
+    align-self: flex-end;
   
   }
 
