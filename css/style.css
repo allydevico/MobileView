@@ -65,7 +65,7 @@
 
   footer p{
       color: white;
-      font-size: 10px;
+      font-size: 20px;
   }
 
   .section {
@@ -91,6 +91,3 @@
     justify-content: center;
   }
 
-  .fa_custom {
-    color: #0099CC
-  }
