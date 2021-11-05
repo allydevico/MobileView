@@ -25,6 +25,7 @@
     padding: 0;
     display: flex; 
     color: #ffffff;
+    font-size: 11px;
   }
   
   .links li a {
