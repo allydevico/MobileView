@@ -95,29 +95,32 @@
   }
 
   .container{
+    width: 100%;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: auto;
     grid-template-rows: repeat(3, auto);
     row-gap: 15px;
+
   }
 
   .Umich-Image {
     grid-column: 1 / span 3;
     grid-row: 1;
     overflow: hidden;
-    opacity: 0.4;
+    opacity: 0.2;
   }
   
   .Umich{
-    grid-column: 1 / span 3;
+    grid-column: 1 / span 2;
     grid-row: 1;
   }
   
   .WHRHS-Image {
+
     grid-column: 1 / span 3;
     grid-row: 2;
     overflow: hidden;
-    opacity: 0.4;
+    opacity: 0.2;
   }
   
   .WHRHS{
@@ -129,9 +132,8 @@
   .Cornell-Image {
     grid-column: 1 / span 3;
     grid-row: 3;
-    max-height: 700px;
     overflow: hidden;
-    opacity: 0.4;
+    opacity: 0.2;
   }
   
   .Cornell {
@@ -142,7 +144,7 @@
   .text-block{
     background-color: transparent;
     padding: 10px 10px 10px 10px;
-    align-self: flex-end;
+    align-self: center;
   
   }
 
