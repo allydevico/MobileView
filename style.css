@@ -60,6 +60,12 @@
   footer {
     margin: 10px 0;
     background-color: #269cae;
+
+  }
+
+  footer p{
+      color: white;
+      font-size: 10px;
   }
 
   .section {
