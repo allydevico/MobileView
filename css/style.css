@@ -8,6 +8,7 @@
   body {
     margin: 0;
     padding: 0;
+    background-image: url('/images/concrete_seamless.png');
     background-color: white;
   }
   
@@ -97,55 +98,57 @@
   .container{
     width: 100%;
     display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: repeat(3, auto);
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, auto);
     row-gap: 15px;
 
   }
 
   .Umich-Image {
-    grid-column: 1 / span 3;
+    grid-column: 1;
     grid-row: 1;
     overflow: hidden;
-    opacity: 0.2;
   }
   
   .Umich{
-    grid-column: 1 / span 2;
-    grid-row: 1;
+    grid-column: 1;
+    grid-row: 2;
   }
   
   .WHRHS-Image {
 
-    grid-column: 1 / span 3;
-    grid-row: 2;
+    grid-column: 1 ;
+    grid-row: 3;
     overflow: hidden;
-    opacity: 0.2;
   }
   
   .WHRHS{
-    grid-column: 1 / span 3;
-    grid-row: 2;
+    grid-column: 1;
+    grid-row: 4;
 
   }
   
   .Cornell-Image {
-    grid-column: 1 / span 3;
-    grid-row: 3;
+    grid-column: 1;
+    grid-row: 5;
     overflow: hidden;
-    opacity: 0.2;
   }
   
   .Cornell {
-    grid-column: 1 / span 3;
-    grid-row: 3;
+    grid-column: 1;
+    grid-row: 6;
   }
 
   .text-block{
     background-color: transparent;
     padding: 10px 10px 10px 10px;
-    align-self: center;
   
+  }
+
+  .container h2{
+    text-decoration: underline black 3px;
+    font-weight: bold;
+
   }
 
   input[type=text], select, textarea {
