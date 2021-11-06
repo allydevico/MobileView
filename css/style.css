@@ -26,7 +26,7 @@
     padding: 0;
     display: flex; 
     color: #ffffff;
-    font-size: 11px;
+    font-size: 16px;
   }
   
   .links li a {
@@ -165,7 +165,10 @@
   input[type=submit] {
     margin: auto;
     width: 20%;
-    padding: 15px 15px;
+    padding-right: 89px;;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
     background-color:#269cae; 
     text-align: center;
     font-size: 16px;
