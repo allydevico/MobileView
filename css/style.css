@@ -104,37 +104,37 @@
 
   }
 
-  .Umich-Image {
+  .umich-Image {
     grid-column: 1;
     grid-row: 1;
     overflow: hidden;
   }
   
-  .Umich{
+  .umich{
     grid-column: 1;
     grid-row: 2;
   }
   
-  .WHRHS-Image {
+  .whrhs-image {
 
     grid-column: 1 ;
     grid-row: 3;
     overflow: hidden;
   }
   
-  .WHRHS{
+  .whrhs{
     grid-column: 1;
     grid-row: 4;
 
   }
   
-  .Cornell-Image {
+  .cornell-image {
     grid-column: 1;
     grid-row: 5;
     overflow: hidden;
   }
   
-  .Cornell {
+  .cornell {
     grid-column: 1;
     grid-row: 6;
   }
