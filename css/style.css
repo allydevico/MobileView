@@ -8,7 +8,7 @@
   body {
     margin: 0;
     padding: 0;
-    background-image: url("/images/concrete_seamless.png");
+    background-image: url('../images/concrete_seamless.png');
     background-color: white;
   }
   
@@ -178,7 +178,6 @@
   .contactForm {
     border-radius: 15px;
     background-color: white;
-    padding: 20px;
     width: 90%; 
     display: flex;
     margin: auto;
